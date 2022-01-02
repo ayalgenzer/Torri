@@ -1,0 +1,39 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+#intellij/webstorm - some of the files in the .idea should be added to git
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/jsLibraryMappings.xml
+.idea/watcherTasks.xml
+.idea/dbnavigator.xml
+.idea/dictionaries
+.idea/dataSources
+.idea/dataSources.local.xml
+.idea/encodings.xml
+.idea/codeStyles
+.idea/csv-plugin.xml
+
+tmp
+build
+
+# dependencies
+node_modules
+
+# testing
+/coverage
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.yarnclean
+.DS_Store
+.eslintcache
+
+.env
+
+.yarn/*
+#!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
